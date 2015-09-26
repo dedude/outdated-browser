@@ -210,6 +210,10 @@ var outdatedBrowser = function(options) {
         return false;
     }//end displayResponse
 
+    // return done for saving the status in a variable for
+    // further checking in the application.
+    return done;
+
 ////////END of outdatedBrowser function
 };
 
